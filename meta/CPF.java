@@ -23,14 +23,13 @@ package moa.classifiers.meta;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.HashMap;
-import sizeof.agent.SizeOfAgent;
 import com.github.javacliparser.IntOption;
 import com.yahoo.labs.samoa.instances.Instance;
 import com.yahoo.labs.samoa.instances.Instances;
 import moa.classifiers.Classifier;
 import moa.classifiers.core.driftdetection.ChangeDetector;
 import moa.core.Utils;
-import moa.options.FlagOption;
+import com.github.javacliparser.FlagOption;
 
 public class CPF extends AbstractCPF {
 
